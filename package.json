@@ -1,0 +1,8 @@
+{
+  "name": "@cubefuse/xplay-ui",
+  "version": "1.0.0",
+  "description": "xPlay UI Framework",
+  "main": "src/index.scss",
+  "author": "Cubefuse",
+  "license": "MIT"
+}

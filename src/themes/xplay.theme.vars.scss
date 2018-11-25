@@ -1,0 +1,26 @@
+// =FONTFAMILY
+// ---------------------------------------------------------------------------
+$font-family-text: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Helvetica, Arial, sans-serif !default;
+
+// =COLORS
+// ---------------------------------------------------------------------------
+
+// Base
+$color-black: #000000 !default;
+$color-red: #fd5750 !default;
+
+// Links
+$color-link: $color-red !default;
+$color-link-hover: $color-orange !default;
+
+// States
+$color-focus: $color-black !default;
+
+// Button
+$color-button: $color-red !default;
+
+// =GLOBALS
+// ---------------------------------------------------------------------------
+// Border
+$border-radius: 0px !default;
