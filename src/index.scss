@@ -8,4 +8,7 @@
 	Copyright (c) 2018, Cubefuse
 	License: MIT
 */
-@import "themes/xplay.theme";
+@import "vars";
+@import "themes/xplay.theme.vars";
+@import "mixins";
+@import "modules";

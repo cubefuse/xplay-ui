@@ -1,26 +1,26 @@
 // =FONTFAMILY
 // ---------------------------------------------------------------------------
 $font-family-text: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI",
-  Roboto, Helvetica, Arial, sans-serif !default;
+  Roboto, Helvetica, Arial, sans-serif;
 
 // =COLORS
 // ---------------------------------------------------------------------------
 
 // Base
-$color-black: #000000 !default;
-$color-red: #fd5750 !default;
+$color-black: #000000;
+$color-red: #fd5750;
 
 // Links
-$color-link: $color-red !default;
-$color-link-hover: $color-orange !default;
+$color-link: $color-red;
+$color-link-hover: $color-orange;
 
 // States
-$color-focus: $color-black !default;
+$color-focus: $color-black;
 
 // Button
-$color-button: $color-red !default;
+$color-button: $color-red;
 
 // =GLOBALS
 // ---------------------------------------------------------------------------
 // Border
-$border-radius: 0px !default;
+$border-radius: 0px;
