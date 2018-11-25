@@ -1,6 +1,6 @@
 {
   "name": "@cubefuse/xplay-ui",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "xPlay UI Framework",
   "main": "dist/index.css",
   "author": "Cubefuse",
