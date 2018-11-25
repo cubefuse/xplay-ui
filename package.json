@@ -2,7 +2,15 @@
   "name": "@cubefuse/xplay-ui",
   "version": "1.0.0",
   "description": "xPlay UI Framework",
-  "main": "src/index.scss",
+  "main": "dist/index.css",
   "author": "Cubefuse",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel watch src/index.scss",
+    "build": "parcel build src/index.scss"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "sass": "^1.15.1"
+  }
 }
