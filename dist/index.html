@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Template</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/src.4ce4245e.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700|Nunito:600" rel="stylesheet">
+  <script src="/src.4ce4245e.js"></script></head>
+
+  <body>
+    <div class="container">
+      <h1>Grid</h1>
+      <p>
+        The Grid is a fluid system with a max width of 120.0rem (1200px), that
+        shrinks with the browser/device at smaller sizes. The grid uses CSS
+        Flexible Box Layout Module standard. Simply add columns you want in a
+        row, and they'll evenly take up the available space. If you want three
+        columns, add three columns, if you want five columns, add five columns.
+      </p>
+      <div class="row">
+        <div class="column">Then came the night of the first falling star.</div>
+        <div class="column">Silver mist suffused the deck of the ship.</div>
+        <div class="column">All their equipment and instruments are alive.</div>
+        <div class="column">
+          A red flare silhouetted the jagged edge of a wing.
+        </div>
+      </div>
+      <h3>Offsets</h3>
+      <div class="row">
+        <div class="column column-50">
+          I watched the storm, so beautiful yet terrific. Mist enveloped the
+          ship three hours out from port. The sky was cloudless and of a deep
+          dark blue.
+        </div>
+        <div class="column column-offset-25">
+          A shining crescent far beneath the flying vessel. Almost before we
+          knew it, we had left the ground. It was going to be a lonely trip
+          back.
+        </div>
+      </div>
+
+      <h3>Column widths</h3>
+      <p>
+        The Grid system also supports specifying column widths as a ratio of the
+        parent row's width. Append one of the percentages listed below to a
+        column- class to achieve the desired layout.
+      </p>
+
+      <div class="container">
+        <div class="row"><div class="column column-10">I watched</div></div>
+        <div class="row">
+          <div class="column column-20">I watched the storm, so</div>
+        </div>
+        <div class="row">
+          <div class="column column-25">I watched the storm, so beautiful</div>
+        </div>
+        <div class="row">
+          <div class="column column-33">
+            I watched the storm, so beautiful yet terrific. Mist
+          </div>
+        </div>
+        <div class="row">
+          <div class="column column-40">
+            I watched the storm, so beautiful yet terrific. The sky was
+          </div>
+        </div>
+        <div class="row">
+          <div class="column column-50">
+            I watched the storm, so beautiful yet terrific. Mist enveloped the
+            ship three
+          </div>
+        </div>
+        <div class="row">
+          <div class="column column-60">
+            I watched the storm, so beautiful yet terrific. Mist enveloped the
+            ship three hours out from
+          </div>
+        </div>
+        <div class="row">
+          <div class="column column-67">
+            I watched the storm, so beautiful yet terrific. Mist enveloped the
+            ship three hours out from port. The
+          </div>
+        </div>
+        <div class="row">
+          <div class="column column-75">
+            I watched the storm, so beautiful yet terrific. Mist enveloped the
+            ship three hours out from port. The sky was
+          </div>
+        </div>
+        <div class="row">
+          <div class="column column-80">
+            I watched the storm, so beautiful yet terrific. Mist enveloped the
+            ship three hours out from port. The sky was cloudless
+          </div>
+        </div>
+        <div class="row">
+          <div class="column column-90">
+            I watched the storm, so beautiful yet terrific. Mist enveloped the
+            ship three hours out from port. The sky was cloudless and of a deep
+            dark
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            I watched the storm, so beautiful yet terrific. Mist enveloped the
+            ship three hours out from port. The sky was cloudless and of a deep
+            dark blue.
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="container">
+      <h1>Blockquotes</h1>
+      <blockquote>
+        <p><em>Yeah!! Milligram is amazing.</em></p>
+      </blockquote>
+    </div>
+    <hr>
+
+    <div class="container">
+      <h1>Buttons</h1>
+      <a class="button" href="#">Default Button</a>
+      <button class="button button-outline">Outlined Button</button>
+      <input class="button button-clear" type="submit" value="Clear Button">
+    </div>
+    <hr>
+
+    <div class="container">
+      <h1>Lists</h1>
+      <ul>
+        <li>Unordered list item 1</li>
+        <li>Unordered list item 2</li>
+      </ul>
+
+      <ol>
+        <li>Ordered list item 1</li>
+        <li>Ordered list item 2</li>
+      </ol>
+
+      <dl>
+        <dt>Description list item 1</dt>
+        <dd>Description list item 1.1</dd>
+      </dl>
+    </div>
+    <hr>
+
+    <div class="container">
+      <h1>Forms</h1>
+      <form>
+        <fieldset>
+          <label for="nameField">Name</label>
+          <input type="text" placeholder="CJ Patoilo" id="nameField">
+          <label for="ageRangeField">Age Range</label>
+          <select id="ageRangeField">
+            <option value="0-13">0-13</option>
+            <option value="14-17">14-17</option>
+            <option value="18-23">18-23</option>
+            <option value="24+">24+</option>
+          </select>
+          <label for="commentField">Comment</label>
+          <textarea placeholder="Hi CJ …" id="commentField"></textarea>
+          <div class="float-right">
+            <input type="radio" id="radioField">
+            <label class="label-inline" for="radioField">Send a copy to yourself</label>
+
+            <input type="checkbox" id="confirmField">
+            <label class="label-inline" for="confirmField">Send a copy to yourself</label>
+          </div>
+          <input class="button-primary" type="submit" value="Send">
+        </fieldset>
+      </form>
+    </div>
+    <hr>
+
+    <div class="container">
+      <h1>Tables</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Height</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Stephen Curry</td>
+            <td>27</td>
+            <td>1,91</td>
+            <td>Akron, OH</td>
+          </tr>
+          <tr>
+            <td>Klay Thompson</td>
+            <td>25</td>
+            <td>2,01</td>
+            <td>Los Angeles, CA</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr>
+
+    <div class="container">
+      <h1>Codes</h1>
+      <code> .milligram { color: #9b4dca; } </code>
+      <pre><code>
+      .milligram {
+        color: #9b4dca;
+      }
+      </code></pre>
+    </div>
+    <hr>
+
+    <div class="container">
+      <h1>Typography</h1>
+      <p>The base type is 1.6rem (16px) over 1.6 line height (24px)</p>
+
+      <a>Anchor</a> <em>Emphasis</em> <small>Small</small>
+      <strong>Strong</strong> <u>Underline</u>
+
+      <h1>Heading</h1>
+      <h2>Heading</h2>
+      <h3>Heading</h3>
+      <h4>Heading</h4>
+      <h5>Heading</h5>
+      <h6>Heading</h6>
+    </div>
+  </body>
+</html>

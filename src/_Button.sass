@@ -1,0 +1,76 @@
+
+// Button
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit']
+	font-family: 'Nunito Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
+	background-color: $color-primary
+	border: .3rem solid $color-primary
+	border-radius: 0
+	color: $color-initial
+	cursor: pointer
+	display: inline-block
+	font-size: 1.2rem
+	font-weight: 700
+	height: 4.2rem
+	letter-spacing: .1rem
+	line-height: 4.0rem
+	padding: 0 3.0rem
+	text-align: center
+	text-decoration: none
+	text-transform: uppercase
+	white-space: nowrap
+
+	&:focus,
+	&:hover
+		background-color: desaturate($color-primary, 20%)
+		border-color: desaturate($color-primary, 20%)
+		color: $color-initial
+		outline: 0
+
+	&[disabled]
+		cursor: default
+		opacity: .5
+
+		&:focus,
+		&:hover
+			background-color: $color-primary
+			border-color: $color-primary
+
+	&.button-outline
+		background-color: transparent
+		color: $color-primary
+
+		&:focus,
+		&:hover
+			background-color: transparentize($color-primary, 0.8)
+			border-color: desaturate($color-primary, 20%)
+			color: desaturate($color-primary, 20%)
+
+		&[disabled]
+
+			&:focus,
+			&:hover
+				border-color: inherit
+				color: $color-primary
+
+	&.button-clear
+		background-color: transparent
+		border-color: transparent
+		color: $color-primary
+
+		&:focus,
+		&:hover
+			background-color: transparent
+			border-color: transparent
+			color: $color-secondary
+
+		&[disabled]
+
+			&:focus,
+			&:hover
+				color: $color-primary

@@ -1,7 +1,26 @@
+.color-initial {
+  color: #fff;
+}
+
+.color-primary {
+  color: #fd5750;
+}
+
+.color-secondary {
+  color: #000000;
+}
+
 *,
 *:after,
 *:before {
   box-sizing: inherit;
+}
+
+* {
+  -webkit-transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.27);
+  -moz-transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.27);
+  -ms-transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.27);
+  -o-transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.27);
 }
 
 html {
@@ -10,16 +29,16 @@ html {
 }
 
 body {
-  color: #606c76;
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #444545;
+  font-family: "Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 1.6em;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.01em;
   line-height: 1.6;
 }
 
 blockquote {
-  border-left: 0.3rem solid #d1d1d1;
+  border-left: 0.3rem solid #fd5750;
   margin-left: 0;
   margin-right: 0;
   padding: 1rem 1.5rem;
@@ -33,17 +52,18 @@ button,
 input[type=button],
 input[type=reset],
 input[type=submit] {
-  background-color: #9b4dca;
-  border: 0.1rem solid #9b4dca;
-  border-radius: 0.4rem;
+  font-family: "Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  background-color: #fd5750;
+  border: 0.3rem solid #fd5750;
+  border-radius: 0;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
-  height: 3.8rem;
+  height: 4.2rem;
   letter-spacing: 0.1rem;
-  line-height: 3.8rem;
+  line-height: 4rem;
   padding: 0 3rem;
   text-align: center;
   text-decoration: none;
@@ -59,8 +79,8 @@ input[type=reset]:focus,
 input[type=reset]:hover,
 input[type=submit]:focus,
 input[type=submit]:hover {
-  background-color: #606c76;
-  border-color: #606c76;
+  background-color: #eb6762;
+  border-color: #eb6762;
   color: #fff;
   outline: 0;
 }
@@ -81,8 +101,8 @@ input[type=reset][disabled]:focus,
 input[type=reset][disabled]:hover,
 input[type=submit][disabled]:focus,
 input[type=submit][disabled]:hover {
-  background-color: #9b4dca;
-  border-color: #9b4dca;
+  background-color: #fd5750;
+  border-color: #fd5750;
 }
 .button.button-outline,
 button.button-outline,
@@ -90,7 +110,7 @@ input[type=button].button-outline,
 input[type=reset].button-outline,
 input[type=submit].button-outline {
   background-color: transparent;
-  color: #9b4dca;
+  color: #fd5750;
 }
 .button.button-outline:focus, .button.button-outline:hover,
 button.button-outline:focus,
@@ -101,9 +121,9 @@ input[type=reset].button-outline:focus,
 input[type=reset].button-outline:hover,
 input[type=submit].button-outline:focus,
 input[type=submit].button-outline:hover {
-  background-color: transparent;
-  border-color: #606c76;
-  color: #606c76;
+  background-color: rgba(253, 87, 80, 0.2);
+  border-color: #eb6762;
+  color: #eb6762;
 }
 .button.button-outline[disabled]:focus, .button.button-outline[disabled]:hover,
 button.button-outline[disabled]:focus,
@@ -115,7 +135,7 @@ input[type=reset].button-outline[disabled]:hover,
 input[type=submit].button-outline[disabled]:focus,
 input[type=submit].button-outline[disabled]:hover {
   border-color: inherit;
-  color: #9b4dca;
+  color: #fd5750;
 }
 .button.button-clear,
 button.button-clear,
@@ -124,7 +144,7 @@ input[type=reset].button-clear,
 input[type=submit].button-clear {
   background-color: transparent;
   border-color: transparent;
-  color: #9b4dca;
+  color: #fd5750;
 }
 .button.button-clear:focus, .button.button-clear:hover,
 button.button-clear:focus,
@@ -137,7 +157,7 @@ input[type=submit].button-clear:focus,
 input[type=submit].button-clear:hover {
   background-color: transparent;
   border-color: transparent;
-  color: #606c76;
+  color: #000000;
 }
 .button.button-clear[disabled]:focus, .button.button-clear[disabled]:hover,
 button.button-clear[disabled]:focus,
@@ -148,13 +168,13 @@ input[type=reset].button-clear[disabled]:focus,
 input[type=reset].button-clear[disabled]:hover,
 input[type=submit].button-clear[disabled]:focus,
 input[type=submit].button-clear[disabled]:hover {
-  color: #9b4dca;
+  color: #fd5750;
 }
 
 code {
   background: #f4f5f6;
   border-radius: 0.4rem;
-  font-size: 86%;
+  font-size: 120%;
   margin: 0 0.2rem;
   padding: 0.2rem 0.5rem;
   white-space: nowrap;
@@ -162,7 +182,7 @@ code {
 
 pre {
   background: #f4f5f6;
-  border-left: 0.3rem solid #9b4dca;
+  border-left: 0.3rem solid #fd5750;
   overflow-y: hidden;
 }
 pre > code {
@@ -174,7 +194,7 @@ pre > code {
 
 hr {
   border: 0;
-  border-top: 0.1rem solid #f4f5f6;
+  border-top: 0.1rem solid #444545;
   margin: 3rem 0;
 }
 
@@ -196,8 +216,8 @@ textarea,
 select {
   appearance: none;
   background-color: transparent;
-  border: 0.1rem solid #d1d1d1;
-  border-radius: 0.4rem;
+  border: 0.2rem solid #e2dcde;
+  border-radius: 0rem;
   box-shadow: none;
   box-sizing: inherit;
   height: 3.8rem;
@@ -220,7 +240,8 @@ input[type=datetime-local]:focus,
 input:not([type]):focus,
 textarea:focus,
 select:focus {
-  border-color: #9b4dca;
+  border: 0.2rem solid #e2dcde;
+  border-left: 0.3rem solid #fd5750;
   outline: 0;
 }
 
@@ -249,9 +270,15 @@ fieldset {
   padding: 0;
 }
 
-input[type=checkbox],
+input[type=checkbox] {
+  display: inline;
+  outline: 0.2rem solid #e2dcde;
+  outline-offset: -0.2rem;
+}
+
 input[type=radio] {
   display: inline;
+  outline-offset: -0.2rem;
 }
 
 .label-inline {
@@ -262,7 +289,7 @@ input[type=radio] {
 
 .container {
   margin: 0 auto;
-  max-width: 112rem;
+  max-width: 120rem;
   padding: 0 2rem;
   position: relative;
   width: 100%;
@@ -398,11 +425,11 @@ input[type=radio] {
   }
 }
 a {
-  color: #9b4dca;
+  color: #fd5750;
   text-decoration: none;
 }
 a:focus, a:hover {
-  color: #606c76;
+  color: #000000;
 }
 
 dl,
@@ -467,7 +494,7 @@ table {
 
 td,
 th {
-  border-bottom: 0.1rem solid #e1e1e1;
+  border-bottom: 0.1rem solid #f4f5f6;
   padding: 1.2rem 1.5rem;
   text-align: left;
 }
@@ -487,7 +514,7 @@ th:last-child {
     width: 100%;
   }
   table thead {
-    border-right: solid 0.1rem #e1e1e1;
+    border-right: solid 0.1rem #f4f5f6;
   }
   table thead td,
 table thead th {
@@ -507,7 +534,7 @@ table thead th:last-child {
     white-space: nowrap;
   }
   table tbody tr {
-    border-right: solid 0.1rem #e1e1e1;
+    border-right: solid 0.1rem #f4f5f6;
   }
   table tbody tr:last-child {
     border-right: none;
@@ -527,7 +554,7 @@ table th:last-child {
 }
 b,
 strong {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 p {
@@ -540,18 +567,21 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
+  font-family: "Nunito", "Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
   letter-spacing: -0.1rem;
-  margin-bottom: 2rem;
-  margin-top: 0;
+  margin-bottom: 1.8rem;
+  margin-top: 3rem;
 }
 
 h1 {
+  color: #fd5750;
   font-size: 4.6rem;
   line-height: 1.2;
 }
 
 h2 {
+  color: #fd5750;
   font-size: 3.6rem;
   line-height: 1.25;
 }

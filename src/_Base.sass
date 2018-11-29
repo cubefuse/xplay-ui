@@ -1,0 +1,31 @@
+
+// Base
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Set box-sizing globally to handle padding and border widths
+*,
+*:after,
+*:before
+	box-sizing: inherit
+
+// Set default animations globally
+*
+	-webkit-transition: all 0.2s cubic-bezier(.17,.67,.83,.27)
+	-moz-transition:    all 0.2s cubic-bezier(.17,.67,.83,.27)
+	-ms-transition:     all 0.2s cubic-bezier(.17,.67,.83,.27)
+	-o-transition:      all 0.2s cubic-bezier(.17,.67,.83,.27)
+
+// The base font-size is set at 62.5% for having the convenience
+// of sizing rems in a way that is similar to using px: 1.6rem = 16px
+html
+	box-sizing: border-box
+	font-size: 62.5%
+
+// Default body styles
+body
+	color: $color-tertiary
+	font-family: 'Nunito Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
+	font-size: 1.6em // Currently ems cause chrome bug misinterpreting rems on body element
+	font-weight: 400
+	letter-spacing: .01em
+	line-height: 1.6

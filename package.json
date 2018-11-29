@@ -6,8 +6,8 @@
   "author": "Cubefuse",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel watch src/index.scss",
-    "build": "parcel build src/index.scss"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "devDependencies": {
     "parcel-bundler": "^1.10.3",
