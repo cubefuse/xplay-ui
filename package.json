@@ -6,8 +6,8 @@
   "author": "Cubefuse",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "parcel src/index.sass",
+    "build": "parcel build src/index.sass"
   },
   "devDependencies": {
     "parcel-bundler": "^1.10.3",
