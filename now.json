@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "name": "xplay-ui",
+  "builds": [
+    {
+      "src": "docs/**",
+      "use": "@now/static"
+    },
+    {
+      "src": "dist/index.css",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/dist/index.css",
+      "dest": "/dist/index.css"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/docs/$1"
+    }
+  ]
+}
