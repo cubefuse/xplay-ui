@@ -35,8 +35,8 @@
 .ndpl-page,
 .ndpl-nav__title,
 .ndpl-sidebar__title {
-  font-family: "Nunito", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
-    "Lucida Sans", Tahoma, sans-serif;
+  font-family: "Nunito Sans", "Trebuchet MS", "Lucida Grande",
+    "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
 /* Heading type sizes */

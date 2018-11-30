@@ -1,0 +1,1 @@
+The Grid is a fluid system with a max width of 120.0rem (1200px), that shrinks with the browser/device at smaller sizes. The grid uses CSS Flexible Box Layout Module standard. Simply add columns you want in a row, and they'll evenly take up the available space. If you want three columns, add three columns, if you want five columns, add five columns.

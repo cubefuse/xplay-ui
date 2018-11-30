@@ -30,13 +30,13 @@
     }
   },
   "assets": {
-    "css": ["../components-library/dist/index.css"],
+    "css": ["../dist/index.css"],
     "js": []
   },
   "font_libraries": {
     "typekit_code": null,
     "typography_web_fonts": null,
-    "google_web_fonts": "https://fonts.googleapis.com/css?family=Nunito:300,400,600"
+    "google_web_fonts": "https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700|Nunito:600"
   },
   "content": null,
   "groups": [
@@ -91,15 +91,32 @@
         },
         {
           "group": "branding",
-          "name": "typography",
-          "title": "Typography"
-        },
-        {
-          "group": "branding",
           "name": "icons",
           "title": "Icons",
           "options": {
             "disable_code_sample": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "typography",
+      "name": "typography",
+      "title": "Typography",
+      "components": [
+        {
+          "group": "typography",
+          "name": "default",
+          "title": "Default Typography",
+          "width": "half"
+        },
+        {
+          "group": "typography",
+          "name": "inverted",
+          "title": "Inverted Typography",
+          "width": "half",
+          "options": {
+            "sample_dark_background": true
           }
         }
       ]
@@ -134,6 +151,36 @@
           "name": "default",
           "title": "Default Form",
           "width": "half"
+        },
+        {
+          "group": "forms",
+          "name": "inverted",
+          "title": "Inverted Form",
+          "width": "half",
+          "options": {
+            "sample_dark_background": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "grid",
+      "title": "Grid",
+      "components": [
+        {
+          "group": "grid",
+          "name": "default",
+          "title": "Grid"
+        },
+        {
+          "group": "grid",
+          "name": "offsets",
+          "title": "Offsets"
+        },
+        {
+          "group": "grid",
+          "name": "column-widths",
+          "title": "Column widths"
         }
       ]
     }
