@@ -1,6 +1,6 @@
 The MIT License
 
-Copyright (c) 2009-2016 Imperavi LLC. https://imperavi.com/kube
+Copyright (c) 2018 Cubefuse. https://cubefuse.io
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

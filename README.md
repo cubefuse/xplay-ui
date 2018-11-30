@@ -14,7 +14,8 @@ Kube supports the latest, stable releases of all major browsers:
 
 ## Credits
 
-Based on [Imperavi Kube](https://imperavi.com/kube), and used under MIT license.
+Based on [Milligram](https://milligram.io), and used under MIT license.
+Previous versions (v1.x) based on [Imperavi Kube](https://imperavi.com/kube), also under MIT license.
 
 ## License
 
