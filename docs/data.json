@@ -183,6 +183,86 @@
           "title": "Column widths"
         }
       ]
+    },
+    {
+      "name": "blockquotes",
+      "title": "Blockquotes",
+      "components": [
+        {
+          "group": "blockquotes",
+          "name": "default",
+          "title": "Default Blockquotes",
+          "width": "half"
+        },
+        {
+          "group": "blockquotes",
+          "name": "inverted",
+          "title": "Inverted Blockquotes",
+          "width": "half",
+          "options": {
+            "sample_dark_background": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "lists",
+      "title": "Lists",
+      "components": [
+        {
+          "group": "lists",
+          "name": "default",
+          "title": "Default Lists",
+          "width": "half"
+        },
+        {
+          "group": "lists",
+          "name": "inverted",
+          "title": "Inverted Lists",
+          "width": "half",
+          "options": { "sample_dark_background": true }
+        }
+      ]
+    },
+    {
+      "name": "tables",
+      "title": "Tables",
+      "components": [
+        {
+          "group": "tables",
+          "name": "default",
+          "title": "Default Tables",
+          "width": "half"
+        },
+        {
+          "group": "tables",
+          "name": "inverted",
+          "title": "Inverted Tables",
+          "width": "half",
+          "options": {
+            "sample_dark_background": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "code",
+      "title": "Code",
+      "components": [
+        {
+          "group": "code",
+          "name": "default",
+          "title": "Default Code",
+          "width": "half"
+        },
+        {
+          "group": "code",
+          "name": "inverted",
+          "title": "Inverted Code",
+          "width": "half",
+          "options": { "sample_dark_background": true }
+        }
+      ]
     }
   ],
   "version": "1.9.5"

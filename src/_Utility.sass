@@ -17,9 +17,9 @@
 .float-right
 	float: right
 
+// Dark UI tweaks
 .dark
 	// Base
-	background-color: $color-secondary
 	color: $color-initial
 
 	// Typography
@@ -71,3 +71,23 @@
 			&:focus,
 			&:hover
 				color: $color-initial
+
+	// Tables
+	td,
+	th
+		border-bottom: .1rem solid $color-tertiary
+
+	@media screen and (max-width: 40.0rem)
+		table
+			tbody
+				border-right: solid .1rem $color-tertiary
+			tbody
+				tr
+					border-right: solid .1rem $color-tertiary
+
+	// Code
+	code
+		background: $color-tertiary
+	
+	pre
+		background: $color-tertiary
